@@ -1,0 +1,15 @@
+---
+title: "RepResAss1"
+author: "tonyqms"
+date: "Saturday, April 18, 2015"
+output: html_document
+---
+
+For the assignment, we need first load the data
+
+```{r}
+setwd("C:\\Users\\msqi\\Documents\\GitHub\\RepData_PeerAssessment1")
+act <- read.csv("activity.csv")
+
+```
+The class of the variable *date* is factor, so we need change it to time. 
